@@ -1,0 +1,16 @@
+<library path="lib/libgiskard_parser_wrappers">
+	<class name="Giskard Parser v1.0"
+		   type="giskard_parser_wrapper::ParserWrapper"
+		   base_class_type="giskard_sim::IGiskardParser">
+		<description>
+			A wrapper around the first custom giskard language parser.
+		</description>
+	</class>
+	<class name="Giskard Parser v2.0"
+		   type="giskard_parser_wrapper::GPPWrapper"
+		   base_class_type="giskard_sim::IGiskardParser">
+		<description>
+			A wrapper around the modular custom giskard language parser.
+		</description>
+	</class>
+</library>
