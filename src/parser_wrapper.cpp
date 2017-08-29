@@ -16,7 +16,7 @@ public:
         t.seekg(0, std::ios::beg);
         fileStr.assign((std::istreambuf_iterator<char>(t)),
                     std::istreambuf_iterator<char>());
-        giskard_core::GiskardLangParser glParser;
+        giskard_suturo::GiskardLangParser glParser;
         return glParser.parseQPController(fileStr);
     }
 };
